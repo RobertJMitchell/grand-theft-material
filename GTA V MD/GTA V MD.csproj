@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{00CDFD4C-6A46-4589-91FE-A59C6432A6C6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GTA_V_MD</RootNamespace>
+    <AssemblyName>GTA V MD</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\material-fullpalette.css.map" />
+    <Content Include="css\material-fullpalette.min.css.map" />
+    <Content Include="css\material.css.map" />
+    <Content Include="css\material.min.css.map" />
+    <Content Include="css\ripples.css.map" />
+    <Content Include="css\ripples.min.css.map" />
+    <Content Include="css\roboto.css.map" />
+    <Content Include="css\roboto.min.css.map" />
+    <Content Include="fonts\Material-Design-Icons.eot" />
+    <Content Include="fonts\Material-Design-Icons.ttf" />
+    <Content Include="fonts\Material-Design-Icons.woff" />
+    <Content Include="fonts\RobotoDraftBold.woff" />
+    <Content Include="fonts\RobotoDraftBold.woff2" />
+    <Content Include="fonts\RobotoDraftItalic.woff" />
+    <Content Include="fonts\RobotoDraftItalic.woff2" />
+    <Content Include="fonts\RobotoDraftMedium.woff" />
+    <Content Include="fonts\RobotoDraftMedium.woff2" />
+    <Content Include="fonts\RobotoDraftRegular.woff" />
+    <Content Include="fonts\RobotoDraftRegular.woff2" />
+    <Content Include="js\material.min.js.map" />
+    <Content Include="js\ripples.min.js.map" />
+    <Content Include="sass\material-wfont.scss" />
+    <Content Include="sass\material.scss" />
+    <Content Include="sass\ripples.scss" />
+    <Content Include="sass\_alerts.scss" />
+    <Content Include="sass\_animations.scss" />
+    <Content Include="sass\_buttons.scss" />
+    <Content Include="sass\_cards.scss" />
+    <Content Include="sass\_checkboxes.scss" />
+    <Content Include="sass\_icons-material-design.scss" />
+    <Content Include="sass\_icons.scss" />
+    <Content Include="sass\_inputs.scss" />
+    <Content Include="sass\_lists.scss" />
+    <Content Include="sass\_mixins.scss" />
+    <Content Include="sass\_navbar.scss" />
+    <Content Include="sass\_plugin-nouislider.scss" />
+    <Content Include="sass\_plugin-snackbarjs.scss" />
+    <Content Include="sass\_popups.scss" />
+    <Content Include="sass\_progress.scss" />
+    <Content Include="sass\_radios.scss" />
+    <Content Include="sass\_shadows.scss" />
+    <Content Include="sass\_tabs.scss" />
+    <Content Include="sass\_variables.scss" />
+    <Content Include="sass\_welljumbo.scss" />
+    <Content Include="meteor\example\.meteor\packages" />
+    <Content Include="meteor\example\.meteor\release" />
+    <Content Include="meteor\example\run.bat" />
+    <Content Include="meteor\example\run.sh" />
+    <Content Include="meteor\README.md" />
+    <Content Include="test\.jshintrc" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\material-fullpalette.css" />
+    <Content Include="css\material-fullpalette.min.css" />
+    <Content Include="css\material.css" />
+    <Content Include="css\material.min.css" />
+    <Content Include="css\ripples.css" />
+    <Content Include="css\ripples.min.css" />
+    <Content Include="css\roboto.css" />
+    <Content Include="css\roboto.min.css" />
+    <Content Include="fonts\LICENSE.txt" />
+    <Content Include="fonts\Material-Design-Icons.svg" />
+    <Content Include="img\gtav header.png" />
+    <Content Include="img\navbarheader.png" />
+    <Content Include="index.html" />
+    <Content Include="js\material.js" />
+    <Content Include="js\material.min.js" />
+    <Content Include="js\ripples.js" />
+    <Content Include="js\ripples.min.js" />
+    <Content Include="meteor\example\.meteor\.gitignore" />
+    <Content Include="meteor\example\client\bmd.css" />
+    <Content Include="meteor\example\client\bmd.html" />
+    <Content Include="meteor\example\client\bmd.js" />
+    <Content Include="meteor\init.js" />
+    <Content Include="meteor\package-fullpalette.js" />
+    <Content Include="meteor\package-noglyph.js" />
+    <Content Include="meteor\package-noicons.js" />
+    <Content Include="meteor\package.js" />
+    <Content Include="meteor\test-noicons.js" />
+    <Content Include="meteor\test.js" />
+    <Content Include="scripts\material.js" />
+    <Content Include="scripts\ripples.js" />
+    <Content Include="test.html" />
+    <Content Include="test\materialSpec.js" />
+    <Content Include="test\ripplesSpec.js" />
+    <Content Include="views\pc\vehicles.html" />
+    <Content Include="views\pc\player.html" />
+    <Content Include="views\pc\world.html" />
+    <Content Include="views\ps\four\player.html" />
+    <Content Include="views\ps\four\vehicles.html" />
+    <Content Include="views\ps\four\world.html" />
+    <Content Include="views\ps\three\player.html" />
+    <Content Include="views\ps\three\vehicles.html" />
+    <Content Include="views\ps\three\world.html" />
+    <Content Include="views\xbox\360\player.html" />
+    <Content Include="views\xbox\360\vehicles.html" />
+    <Content Include="views\xbox\360\world.html" />
+    <Content Include="views\xbox\one\player.html" />
+    <Content Include="views\xbox\one\vehicles.html" />
+    <Content Include="views\xbox\one\world.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>27673</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:27673/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
