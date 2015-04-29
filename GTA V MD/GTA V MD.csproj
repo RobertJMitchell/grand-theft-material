@@ -152,12 +152,14 @@
     <Content Include="test.html" />
     <Content Include="test\materialSpec.js" />
     <Content Include="test\ripplesSpec.js" />
+    <Content Include="views\pc\pcindex.html" />
     <Content Include="views\pc\vehicles.html" />
     <Content Include="views\pc\player.html" />
     <Content Include="views\pc\world.html" />
     <Content Include="views\ps\four\player.html" />
     <Content Include="views\ps\four\vehicles.html" />
     <Content Include="views\ps\four\world.html" />
+    <Content Include="views\ps\psindex.html" />
     <Content Include="views\ps\three\player.html" />
     <Content Include="views\ps\three\vehicles.html" />
     <Content Include="views\ps\three\world.html" />
@@ -167,6 +169,7 @@
     <Content Include="views\xbox\one\player.html" />
     <Content Include="views\xbox\one\vehicles.html" />
     <Content Include="views\xbox\one\world.html" />
+    <Content Include="views\xbox\xbindex.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

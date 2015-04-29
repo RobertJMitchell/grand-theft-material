@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--scripts for header-->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
+    <link href="/css/roboto.min.css" rel="stylesheet">
+    <link href="/css/material-fullpalette.min.css" rel="stylesheet" />
+    <link href="/css/ripples.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar navbar-material-light-blue-900">
+        <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="../../index.html"><img src="/img/grandtheftmaterial.png" /></a>
+
+
+
+        </div>
+        <div class="navbar-collapse collapse navbar-inverse-collapse">
+
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="player.html">Player Effects</a></li>
+                <li><a href="vehicles.html">Vehicles</a></li>
+                <li><a href="world.html">World Effects</a></li>
+                <li><a href="javascript:void(0)">About GTM</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+
+    <!--scripts for ripples and misc begin here-->
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="/js/ripples.min.js"></script>
+    <script src="/js/material.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // This command is used to initialize some elements and make them work properly
+            $.material.init();
+        });
+    </script>
+</body>
+</html>
