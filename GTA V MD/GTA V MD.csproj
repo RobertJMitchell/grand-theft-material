@@ -125,8 +125,12 @@
     <Content Include="css\roboto.min.css" />
     <Content Include="fonts\LICENSE.txt" />
     <Content Include="fonts\Material-Design-Icons.svg" />
+    <Content Include="img\grandtheftmaterial.png" />
     <Content Include="img\gtav header.png" />
     <Content Include="img\navbarheader.png" />
+    <Content Include="img\pcfont.png" />
+    <Content Include="img\playstationfont.png" />
+    <Content Include="img\xboxfont.png" />
     <Content Include="index.html" />
     <Content Include="js\material.js" />
     <Content Include="js\material.min.js" />
